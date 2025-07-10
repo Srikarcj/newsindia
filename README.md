@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
+# NewsIndia - Modern News Application
 
-## Project info
+A modern, responsive news application built with the latest web technologies to deliver a seamless reading experience.
 
-**URL**: https://lovable.dev/projects/d3427e71-1042-46f6-9a5c-abc0cb670eaf
+## Screenshots
 
-## How can I edit this code?
+<div align="center">
+  <img src="./images/pic1.png" alt="NewsIndia Screenshot 1" width="45%" />
+  <img src="./images/pic2.png" alt="NewsIndia Screenshot 2" width="45%" />
+</div>
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+### Prerequisites
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d3427e71-1042-46f6-9a5c-abc0cb670eaf) and start prompting.
+- Node.js (v14 or later)
+- npm (v7 or later) or yarn
 
-Changes made via Lovable will be committed automatically to this repo.
+### Installation
 
-**Use your preferred IDE**
+1. Clone the repository:
+   ```sh
+   git clone <YOUR_GIT_URL>
+   cd newsindia
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
 
-Follow these steps:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Development
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Available Scripts
 
-# Step 3: Install the necessary dependencies.
-npm i
+- `npm run dev` - Start the development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview the production build
+- `npm run lint` - Run ESLint
+- `npm run type-check` - Run TypeScript type checking
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## Technologies Used
+
+- ⚡️ [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
+- ⚛️ [React 18](https://reactjs.org/) - JavaScript library for building user interfaces
+- 📝 [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+- ✨ [shadcn/ui](https://ui.shadcn.com/) - Beautifully designed components
+- 🔄 [React Query](https://tanstack.com/query) - Data synchronization
+- 🎯 [React Router](https://reactrouter.com/) - Client-side routing
+
+## Deployment
+
+### Build for Production
+
+```bash
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+This will create a `dist` directory with the production build of your app.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Deploy to Vercel
 
-**Use GitHub Codespaces**
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=YOUR_REPO_URL&project-name=newsindia&repo-name=newsindia)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Other Hosting Options
 
-## What technologies are used for this project?
+You can deploy this application to any static hosting service, such as:
+- [Netlify](https://www.netlify.com/)
+- [Cloudflare Pages](https://pages.cloudflare.com/)
+- [GitHub Pages](https://pages.github.com/)
 
-This project is built with:
+## Contributing
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d3427e71-1042-46f6-9a5c-abc0cb670eaf) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Contributions are welcome! Please feel free to submit a Pull Request.
